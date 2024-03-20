@@ -1,0 +1,129 @@
+﻿/* The navigation bar */
+.navbartop {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+/* Links inside the navbar */
+.navbartop a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbartop a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.adresse{
+	height:700px;
+	background-image: url("../imagescontact/arkadre_contact_cadre_tableau_encadrement_fond_haut.jpg");
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Roboto';
+    text-align: left;
+    font-size: 18px;
+}
+
+.logoContact{
+	float:left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:25%;
+}
+
+.adresseContact{
+	float:left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto'; 
+	padding-top:3%;
+}
+
+.titreAdresse{
+		font-family: 'Roboto'; 
+		font-weight:bold;
+		font-size:28px;
+}
+
+.infoAdresse{
+		font-family: 'Roboto'; 
+		font-style:bold;
+		font-size:22px;
+}
+
+.infoLieu {
+	height:720px;
+		background-color: rgb(177, 177, 177);
+	
+}
+.info  {
+		float:left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto'; 
+	width:400px;
+	padding-left:25%;
+	padding-top:10%
+}
+
+.photoalice {
+		float:left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto'; 
+		width:400px;
+}
+
+.googleMaps {
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:20%;
+}
+
+.clear{
+    clear:both;
+}
+
+/* The navigation bar */
+.navbarBottom {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.textBottom {
+    clear:both;
+    text-align: left;   
+    margin-left: 150px;
+    padding-bottom:10px;
+}
+
+

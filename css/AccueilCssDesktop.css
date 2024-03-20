@@ -1,0 +1,71 @@
+.header,
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+	background-color:#000000;
+	font-family: 'Roboto';
+	color:#ffffff;
+}
+
+.header {
+    top: 0;
+    height: 40px;
+	padding-top:10px;
+	padding-left:15%;
+}
+
+.footer {
+    bottom: 0;
+    height: 50px;
+	padding-left:15%;
+	padding-top:5px;
+}
+
+.header a{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight:500;
+	margin:25px;
+}
+
+
+.centerDiv
+{
+	width: 100%;
+	margin: 0 auto;
+}
+.div1
+{
+	width: 15%;
+	min-height: 100vh;
+	float:left;
+}
+.div2
+{
+	width: 80%;
+	min-height: 100vh;
+	float:left;
+}
+.div3
+{
+	width: 5%;
+	min-height: 100vh;
+	float:left;
+}
+.colonneGauche{
+	float:left;
+}
+.colonneGauche  img{
+		margin:15px;
+}
+.colonneDroite{
+	float:left;
+}
+.colonneDroite  img{
+		margin:15px;
+}
+
+.clear{
+clear:both;
+}

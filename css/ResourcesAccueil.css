@@ -1,0 +1,83 @@
+﻿/* The navigation bar */
+.navbartop {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+/* Links inside the navbar */
+.navbartop a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbartop a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+/* The navigation bar */
+.navbarBottom {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.textBottom {
+    clear:both;
+    text-align: left;   
+    margin-left: 150px;
+    padding-bottom:10px;
+}
+
+
+.columnleft {
+    float:left;
+    width:620px;
+    margin: 15px;
+}
+.columnright {
+    float:left;
+    width:340px;
+    margin: 15px;
+}
+
+/*
+.column {
+    float: left;
+    width: 50%;
+}
+.row {
+    text-align: center;
+    width: 70%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/

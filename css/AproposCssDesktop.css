@@ -1,0 +1,84 @@
+.header,
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+	background-color:#000000;
+	font-family: 'Roboto';
+	color:#ffffff;
+}
+
+.header {
+    top: 0;
+    height: 40px;
+	padding-top:10px;
+	padding-left:15%;
+}
+
+.footer {
+    bottom: 0;
+    height: 50px;
+	padding-left:15%;
+	padding-top:5px;
+}
+
+.header a{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight:500;
+	margin:25px;
+}
+
+
+.centerDiv
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.haut{
+	background-color: rgb(58, 58, 58);
+	height:auto;
+    overflow:auto;
+	padding-left:24%;
+}
+
+.imageColonne1{
+	float:left;
+
+	padding:10px;
+}
+
+.imageColonne2{
+	float:left;
+		padding:10px;
+}
+
+.bas{
+	background-image: url("../imagesapropos/arkadre_apropos_cadre_tableau_encadrement_background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	font-family: 'Roboto'; 
+	background-color:#000000;
+	height:auto;
+    overflow:auto;
+	min-height:580px;
+}
+
+.bas img {
+	float:left;
+	padding-left:35%;
+}
+
+.bas span {
+	padding-top:100px;
+    padding-left:10px; 
+    display:block;
+	font-family: 'Roboto';
+}
+
+
+.clear{
+clear:both;
+}

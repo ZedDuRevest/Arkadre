@@ -1,0 +1,58 @@
+.header,
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+	background-color:#000000;
+	font-family: 'Roboto';
+	color:#ffffff;
+}
+
+.header {
+    top: 0;
+    height: 40px;
+	padding-top:10px;
+}
+
+.footer {
+    bottom: 0;
+    height: 50px;
+	padding-left:15%;
+	padding-top:5px;
+}
+
+.header a{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight:500;
+}
+
+.centerDiv
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#FFA500 ;
+}
+.div1
+{
+	width: 0%;
+	min-height: 100vh;
+	float:left;
+}
+.div2
+{
+	width: 80%;
+	min-height: 100vh;
+	float:left;
+}
+.div3
+{
+	width: 5%;
+	min-height: 100vh;
+	float:left;
+}
+
+	
+.clear{
+    clear:both;
+}
